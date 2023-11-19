@@ -1,5 +1,5 @@
 # Project UAS Aplikasi Top Up Takapedia
-##Fitur Aplikasi
+## Fitur Aplikasi
 - Login, pada fitur ini digunakan pengguna untuk masuk ke dalam akun dengan menggunakan identitas, ini diperlukan untuk mengakses fitur-fitur yang memerlukan autentikasi.
 - Register, pada fitur ini digunakan pengguna untuk membuat akun baru jika belum memiliki akun sebelumnya.
 - Pilihan Game, pada fitur ini pengguna dapat memilih game sesuai yang akan di top up.
