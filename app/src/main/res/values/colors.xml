@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#8692f7</color>
     <color name="lavender">#8692f7</color>
+    <color name="green">#FF00FF00</color>
+    <color name="lightgreen">#FFCCFFCC</color>
+    <color name="paleblue">#FF99CCFF</color>
 </resources>
