@@ -3,15 +3,15 @@
     <item
         android:id="@+id/action_call"
         android:icon="@drawable/ic_call"
-        android:title="Call" />
+        android:title="Lapor Masalah" />
 
     <item
         android:id="@+id/action_message"
-        android:icon="@drawable/ic_message"
-        android:title="Message" />
+        android:icon="@drawable/ic_question"
+        android:title="Bantuan" />
 
     <item
         android:id="@+id/action_question"
-        android:icon="@drawable/ic_question"
-        android:title="Question" />
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
 </menu>

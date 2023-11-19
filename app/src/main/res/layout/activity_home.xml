@@ -36,7 +36,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/mlbb" />
+                    android:src="@drawable/pubg" />
 
                 <Button
                     android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/mlbb" />
+                    android:src="@drawable/genshin" />
 
                 <Button
                     android:layout_width="wrap_content"
@@ -151,7 +151,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/mlbb" />
+                    android:src="@drawable/ff" />
 
                 <Button
                     android:layout_width="wrap_content"
