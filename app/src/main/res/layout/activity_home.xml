@@ -39,6 +39,7 @@
                     android:src="@drawable/pubg" />
 
                 <Button
+                    android:id="@+id/pubg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Top Up"
@@ -71,6 +72,7 @@
                     android:src="@drawable/genshin" />
 
                 <Button
+                    android:id="@+id/genshin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Top Up"
@@ -122,6 +124,7 @@
                     android:src="@drawable/mlbb" />
 
                 <Button
+                    android:id="@+id/mlbb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Top Up"
@@ -154,6 +157,7 @@
                     android:src="@drawable/ff" />
 
                 <Button
+                    android:id="@+id/ff"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Top Up"
