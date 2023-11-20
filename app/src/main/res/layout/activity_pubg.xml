@@ -187,7 +187,7 @@
         app:layout_constraintVertical_bias="0.747" />
 
     <Button
-        android:id="@+id/btnPesan"
+        android:id="@+id/btnPesanPubg"
         android:layout_width="302dp"
         android:layout_height="49dp"
         android:layout_marginStart="54dp"
