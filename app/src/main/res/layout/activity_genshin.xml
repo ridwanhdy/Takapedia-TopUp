@@ -13,7 +13,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="16dp"
-        android:src="@drawable/banner"
+        android:src="@drawable/genshinbanner"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
