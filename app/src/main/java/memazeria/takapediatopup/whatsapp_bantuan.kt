@@ -12,7 +12,7 @@ class whatsapp_bantuan : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_whatsapp_bantuan)
 
-        val btnWhatsappChat = findViewById<Button>(R.id.btn_whatsapp_chat)
+        val btnWhatsappChat = findViewById<Button>(R.id.buttonbantuan)
         btnWhatsappChat.setOnClickListener {
             whatsappChatBantuan("6281234567890")
         }
