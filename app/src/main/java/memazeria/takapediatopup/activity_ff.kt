@@ -19,7 +19,5 @@ class activity_ff : AppCompatActivity() {
             i.data = Uri.parse(url)
             startActivity(i)
         }
-
-
     }
 }
