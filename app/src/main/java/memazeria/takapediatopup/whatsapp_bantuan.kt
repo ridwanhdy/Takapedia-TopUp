@@ -12,15 +12,15 @@ class whatsapp_bantuan : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_whatsapp_bantuan)
 
-        val btnWhatsappChat = findViewById<Button>(R.id.buttonbantuan)
-        btnWhatsappChat.setOnClickListener {
-            whatsappChatBantuan("6281234567890")
+        val btnFf = findViewById<Button>(R.id.buttonwabantuan)
+
+        btnFf.setOnClickListener {
+            val url = "https://wa.link/dlzu85"
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse(url)
+            startActivity(i)
         }
+
     }
 
-    fun whatsappChatBantuan(namaPengguna: String) {
-        val intent = Intent(Intent.ACTION_VIEW)
-        intent.data = Uri.parse("https://wa.me/$namaPengguna")
-        startActivity(intent)
-    }
 }

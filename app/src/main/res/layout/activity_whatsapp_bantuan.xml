@@ -20,11 +20,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/buttonbantuan"
+        app:layout_constraintBottom_toTopOf="@+id/buttonwabantuan"
         android:layout_marginTop="50dp" />
 
     <Button
-        android:id="@+id/buttonbantuan"
+        android:id="@+id/buttonwabantuan"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
