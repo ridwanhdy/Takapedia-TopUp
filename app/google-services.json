@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849067690303",
+    "project_id": "takapedia-bb24e",
+    "storage_bucket": "takapedia-bb24e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849067690303:android:597d247c891192fcc4ab8a",
+        "android_client_info": {
+          "package_name": "memazeria.takapediatopup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs4hsm2YzI_hQzX0k1vEl2rW4agOwRItc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

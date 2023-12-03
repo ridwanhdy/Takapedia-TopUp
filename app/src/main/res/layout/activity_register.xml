@@ -47,27 +47,15 @@
                 android:textStyle="bold"
                 android:textColor="@color/lavender"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:id="@+id/nama"
-                android:background="@drawable/custom_edittext"
-                android:layout_marginTop="40dp"
-                android:padding="8dp"
-                android:hint="Nama"
-                android:drawableLeft="@drawable/baseline_person_24"
-                android:textColor="@color/black"
-                android:drawablePadding="8dp"/>
-
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/username"
+                android:id="@+id/edtEmailRegister"
                 android:background="@drawable/custom_edittext"
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
-                android:hint="Username"
+                android:hint="Email"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
@@ -75,7 +63,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/password"
+                android:id="@+id/edtPasswordRegister"
                 android:background="@drawable/custom_edittext"
                 android:layout_marginTop="20dp"
                 android:inputType="textPassword"
@@ -98,12 +86,12 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Login"
-                android:id="@+id/btnLogin"
-                android:textSize="18sp"
+                android:text="Sudah Punya Akun? Login"
+                android:id="@+id/btnKeLogin"
+                android:textSize="13sp"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/lavender"
-                app:cornerRadius = "20dp"/>
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
 
 
         </LinearLayout>
