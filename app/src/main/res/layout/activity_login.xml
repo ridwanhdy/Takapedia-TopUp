@@ -49,19 +49,19 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/edtEmailLogin"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="8dp"
-                android:hint="Username"
+                android:hint="Email"
                 android:padding="8dp"
                 android:textColor="@color/black" />
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/edtPasswordLogin"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
@@ -88,9 +88,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/lavender"
-                android:text="Daftar"
-                android:textSize="18sp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:text="Belum Punya Akun? Daftar"
+                android:textSize="13sp"
                 app:cornerRadius="20dp" />
 
 
