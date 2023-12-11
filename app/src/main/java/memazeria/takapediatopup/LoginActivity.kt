@@ -20,6 +20,12 @@ class LoginActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+        if(auth.currentUser != null) {
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         val btnDaftar = findViewById<Button>(R.id.btnDaftar)
 
         btnDaftar.setOnClickListener {
@@ -67,6 +73,7 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(this, "Selamat Datang $email", Toast.LENGTH_SHORT).show()
                     val intent = Intent(this,home::class.java)
                     startActivity(intent)
+                    finish()
                 } else{
                     Toast.makeText(this, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
