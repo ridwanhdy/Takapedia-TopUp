@@ -12,17 +12,19 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import memazeria.takapediatopup.data.AppDatabase
 import memazeria.takapediatopup.data.dao.DiamondDao
+import memazeria.takapediatopup.data.dao.FfDiamondDao
 import memazeria.takapediatopup.data.entity.Diamond
+import memazeria.takapediatopup.data.entity.FfDiamond
 
 class activity_ff : AppCompatActivity() {
 
-    private lateinit var diamondDao: DiamondDao
+    private lateinit var diamondDao: FfDiamondDao
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ff)
 
-        diamondDao = AppDatabase.getDatabase(this).DiamondDao()
+        diamondDao = AppDatabase.getDatabase(this).FfDiamondDao()
 
         // Pricelist Free Fire
         val pricelistFF = listOf(
@@ -38,7 +40,7 @@ class activity_ff : AppCompatActivity() {
 
         // Insert pricelist to database
         for ((count, price) in pricelistFF) {
-            val diamond = Diamond(count = count, price = price)
+            val diamond = FfDiamond(count = count, price = price)
             insertDiamondIfNotExists(diamond)
         }
 
@@ -46,7 +48,7 @@ class activity_ff : AppCompatActivity() {
 
         val btnFf = findViewById<Button>(R.id.btnPesanFf)
         btnFf.setOnClickListener {
-            val url = "https://wa.link/dlzu85"
+            val url = "https://wa.link/8p497g"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
@@ -56,7 +58,7 @@ class activity_ff : AppCompatActivity() {
     private fun displayDiamonds() {
         CoroutineScope(Dispatchers.IO).launch {
             // Mendapatkan data dari Room Database
-            val diamonds = diamondDao.getAllDiamonds()
+            val diamonds = diamondDao.getAllFfDiamonds()
 
             // Menetapkan data ke TextView
             val stringBuilder = StringBuilder()
@@ -71,14 +73,14 @@ class activity_ff : AppCompatActivity() {
         }
     }
 
-    private fun insertDiamondIfNotExists(diamond: Diamond) {
+    private fun insertDiamondIfNotExists(diamond: FfDiamond) {
         CoroutineScope(Dispatchers.IO).launch {
             // Memeriksa apakah diamond dengan count yang sama sudah ada
-            val existingDiamond = diamondDao.getAllDiamonds().find { it.count == diamond.count }
+            val existingDiamond = diamondDao.getAllFfDiamonds().find { it.count == diamond.count }
 
             if (existingDiamond == null) {
                 // Jika tidak ada, maka insert
-                diamondDao.insertDiamond(diamond)
+                diamondDao.insertFfDiamond(diamond)
             }
         }
     }

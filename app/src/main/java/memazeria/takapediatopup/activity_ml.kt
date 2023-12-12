@@ -48,7 +48,7 @@ class activity_ml : AppCompatActivity() {
         displayDiamonds()
 
         btnMlbb.setOnClickListener {
-            val url = "https://wa.link/0y8u1l"
+            val url = "https://wa.link/0q6kx8"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
