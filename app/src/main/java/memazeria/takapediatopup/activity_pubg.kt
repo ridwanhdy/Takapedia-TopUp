@@ -49,7 +49,7 @@ class activity_pubg : AppCompatActivity() {
         val btnPubg = findViewById<Button>(R.id.btnPesanPubg)
 
         btnPubg.setOnClickListener {
-            val url = "https://wa.link/vq1agd"
+            val url = "https://wa.link/y3lxng"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)

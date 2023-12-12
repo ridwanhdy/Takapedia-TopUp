@@ -49,7 +49,7 @@ class activity_genshin : AppCompatActivity() {
         val btnGenshin = findViewById<Button>(R.id.btnPesanGenshin)
 
         btnGenshin.setOnClickListener {
-            val url = "https://wa.link/r87cya"
+            val url = "https://wa.link/lyjojo"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)

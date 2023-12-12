@@ -48,7 +48,7 @@ class activity_ff : AppCompatActivity() {
 
         val btnFf = findViewById<Button>(R.id.btnPesanFf)
         btnFf.setOnClickListener {
-            val url = "https://wa.link/dlzu85"
+            val url = "https://wa.link/8p497g"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)

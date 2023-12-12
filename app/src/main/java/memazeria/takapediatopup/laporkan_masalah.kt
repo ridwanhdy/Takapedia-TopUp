@@ -14,7 +14,7 @@ class laporkan_masalah : AppCompatActivity() {
         val btnLapor = findViewById<Button>(R.id.buttonbantuan)
 
         btnLapor.setOnClickListener {
-            val url = "https://wa.link/dlzu85"
+            val url = "https://wa.link/xvxqox"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
